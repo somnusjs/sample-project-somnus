@@ -1,0 +1,20 @@
+{
+  "name": "sample-project-somnus",
+  "version": "0.0.1",
+  "description": "An example API server based on somnus TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --outDir dist index.ts"
+  },
+  "dependencies": {
+    "somnus": "^3.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/somnusjs/sample-project-somnus.git"
+  }
+}
